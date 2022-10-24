@@ -27,10 +27,12 @@ body {
   z-index: 1;
 }
 
+.header__title {
+  margin-left: 3.5rem;
+}
 .header__title__text {
   color: white;
   font-family: "Sonsie One", cursive;
-  margin-left: 1em;
 }
 
 .header__button {
