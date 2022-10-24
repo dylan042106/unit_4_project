@@ -37,4 +37,17 @@ def initialize_items():
         )
 
 
+def initialize_featured():
+    for each in item_info.FEATURED:
+        create_item(
+            each["name"],
+            each["desc"],
+            each["img"],
+            each["price"],
+            each["is_in_cart"],
+            each["subsection"],
+            each["section"],
+        )
+
+
 cart = []

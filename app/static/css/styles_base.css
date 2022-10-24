@@ -33,6 +33,7 @@ body {
 .header__title__text {
   color: white;
   font-family: "Sonsie One", cursive;
+  font-size: 1.5rem;
 }
 
 .header__button {
