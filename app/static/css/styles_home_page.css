@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+.homepage {
+  font-family: "Quicksand", sans-serif;
+}
+
+.homepage__description__box {
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 35px;
+}
