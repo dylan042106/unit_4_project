@@ -20,7 +20,7 @@ INITIAL_ITEM_INFO = [
     {
         "name": "Sweet Roll",
         "desc": "The Sweet Roll is a pastry-like treat that can be found in almost everywhere in Skyrim",
-        "img": "not done yet",
+        "img": "sweetrole",
         "price": "4.99",
         "is_in_cart": False,
         "subsection": "Skyrim",
@@ -29,7 +29,7 @@ INITIAL_ITEM_INFO = [
     {
         "name": "Mehrunes' Razor",
         "desc": "Extremely powerful Deadric artifact crafted Mehrunes Dagon that has a chance to instantly kill any opponent",
-        "img": "not yet done",
+        "img": "mehrunesRazor",
         "price": "99,000.00",
         "is_in_cart": False,
         "subsection": "Skyrim",
@@ -134,4 +134,14 @@ INITIAL_ITEM_INFO = [
         "subsection": "DeathNote",
         "section": "Anime",
     },
+]
+
+FEATURED = [
+    {
+        "name": "Masterball",
+        "desc": "Invented by Silph Co, Type of pokeball that can catch any wild pokemon without fail.",
+        "img": "masterBall",
+        "price": "999.99",
+        "is_in_cart": False,
+    }
 ]
