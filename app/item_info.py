@@ -56,7 +56,7 @@ INITIAL_ITEM_INFO = [
     {
         "name": "Archmeaster Walgrave's Key",
         "desc": "Can unlock any door in the Citadel granting you unlimited knowledge",
-        "img": "not yet done",
+        "img": "key",
         "price": "299.00",
         "is_in_cart": False,
         "subsection": "Game Of Thrones",
@@ -65,7 +65,7 @@ INITIAL_ITEM_INFO = [
     {
         "name": "The Renaissance Vase",
         "desc": "this item is the vase from the anime Oran Highschool Host Club",
-        "img": "images/vase.jpg",
+        "img": "Vase",
         "price": "1,000",
         "is_in_cart": False,
         "subsection": "Oran Highschool Host Club",
@@ -74,7 +74,7 @@ INITIAL_ITEM_INFO = [
     {
         "name": "Gomu Gomu no Mi",
         "desc": "This item is whats known as a devil's fruit the anime called One Piece",
-        "img": "images/devil fruit.jpg",
+        "img": "Devil Fruit",
         "price": "5,000,000,000",
         "is_in_cart": False,
         "subsection": "One Piece",
@@ -101,16 +101,16 @@ INITIAL_ITEM_INFO = [
     {
         "name": "Ichigo Bankai",
         "desc": "This item is from the anime called BLEACH and the second form Zanpakuto.",
-        "img": "images/Ichigo Bankai.jpg",
+        "img": "Ichigo Bankai",
         "price": "100,000,000",
         "is_in_cart": False,
         "subsection": "BLEACH",
         "section": "Anime",
     },
     {
-        "name": "Sukuna Ryomen Finger",
+        "name": "Gojo Glass",
         "desc": "This item is from the anime called Jujutsu Kaisen",
-        "img": "images/finger.jpg",
+        "img": "Gojo",
         "price": "200,000,000,000",
         "is_in_cart": False,
         "subsection": "Jujutsu Kaisen",
@@ -119,7 +119,7 @@ INITIAL_ITEM_INFO = [
     {
         "name": "Kisame's Blade, 'Samehada'",
         "desc": "this item is one of the most dangerous weapons of the Seven Ninja Swordsmen blades in Naruto",
-        "img": "images/samehada.jpg",
+        "img": "Samehada",
         "price": "20,000,050",
         "is_in_cart": False,
         "subsection": "Naruto",
@@ -128,7 +128,7 @@ INITIAL_ITEM_INFO = [
     {
         "name": "The Deathnote Notebook",
         "desc": "This Notebook is a very dangerous notebook where whoever's name is written in it, they die shortly after.",
-        "img": "images/deathnote.jpg",
+        "img": "Death Note",
         "price": "200,000,000,000",
         "is_in_cart": False,
         "subsection": "DeathNote",
