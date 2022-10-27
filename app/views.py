@@ -1,3 +1,4 @@
+from multiprocessing import context
 from django.shortcuts import render
 from django.http.request import HttpRequest
 from app import models
@@ -10,17 +11,15 @@ def homePageView(request):
 
 
 def sectionPageView(request, section):
+    new_section = section.replace("-", " ")
     sections = []
     all_items = models.ITEM.objects.all()
-    for items in all_items:
-        if items.section == section:
-            items.subsection.replace("-", " ")
-            if items.subsection not in sections:
-                sections.append(items.subsection)
-    current_section = section.replace("-", " ")
-    context = {"sections": sections, "section_name": current_section}
+    for item in all_items:
+        if item.section == new_section:
+            if item.subsection not in sections:
+                sections.append(item.subsection)
+    context = {"name_of": new_section, "sections": sections}
     return render(request, "sectionTemplate.html", context)
-
 
 def cartPageView(request):
     context = {"cart": models.cart}
@@ -28,17 +27,17 @@ def cartPageView(request):
 
 
 def subSectionPageView(request, subsection):
+    new_sub = subsection.replace("%20", " ")
     subsections = []
     other = []
     all_items = models.ITEM.objects.all()
     for item in all_items:
-        item.subsection = item.subsection.replace(" ", "-")
-        if item.subsection == subsection:
-            item.subsection = item.subsection.replace("-", " ")
+        if item.subsection == new_sub:
             subsections.append(item)
             other.append(item.subsection)
-    for all in other:
-        this = all
+            for all in other:
+                this = all
+
     context = {"subSectionName": this, "subs": subsections}
     return render(request, "subSectionTemplate.html", context)
 

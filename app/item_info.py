@@ -6,16 +6,16 @@ INITIAL_ITEM_INFO = [
         "price": "180,000",
         "is_in_cart": True,
         "subsection": "Minecraft",
-        "section": "Video-Games",
+        "section": "Video Games",
     },
     {
         "name": "Maxwell's Notebook",
         "desc": "This item is the notebook from the game Scribblenauts, the notebook that makes anything you write in it real.",
-        "img": "images/maxwell's notebook.png",
+        "img": "maxWellsNotebook",
         "price": "999,999,999,999",
         "is_in_cart": False,
         "subsection": "Scribblenauts",
-        "section": "Video-Games",
+        "section": "Video Games",
     },
     {
         "name": "Sweet Roll",
@@ -24,7 +24,7 @@ INITIAL_ITEM_INFO = [
         "price": "4.99",
         "is_in_cart": False,
         "subsection": "Skyrim",
-        "section": "Video-Games",
+        "section": "Video Games",
     },
     {
         "name": "Mehrunes' Razor",
@@ -33,7 +33,7 @@ INITIAL_ITEM_INFO = [
         "price": "99,000.00",
         "is_in_cart": False,
         "subsection": "Skyrim",
-        "section": "Video-Games",
+        "section": "Video Games",
     },
     {
         "name": "Mr. Meeseeks Box",
@@ -41,8 +41,8 @@ INITIAL_ITEM_INFO = [
         "img": "mrMeeseeksBox",
         "price": "9,000.00",
         "is_in_cart": False,
-        "subsection": "Rick-and-Morty",
-        "section": "Movies-Series",
+        "subsection": "Rick and Morty",
+        "section": "Movies and Series",
     },
     {
         "name": "C137's Portal Gun",
@@ -50,8 +50,8 @@ INITIAL_ITEM_INFO = [
         "img": "portalGun",
         "price": "99,999,999.99",
         "is_in_cart": False,
-        "subsection": "Rick-and-Morty",
-        "section": "Movies-Series",
+        "subsection": "Rick and Morty",
+        "section": "Movies and Series",
     },
     {
         "name": "Archmeaster Walgrave's Key",
@@ -59,8 +59,8 @@ INITIAL_ITEM_INFO = [
         "img": "not yet done",
         "price": "299.00",
         "is_in_cart": False,
-        "subsection": "Game-Of-Thrones",
-        "section": "Movies-Series",
+        "subsection": "Game Of Thrones",
+        "section": "Movies and Series",
     },
     {
         "name": "The Renaissance Vase",
@@ -68,7 +68,7 @@ INITIAL_ITEM_INFO = [
         "img": "images/vase.jpg",
         "price": "1,000",
         "is_in_cart": False,
-        "subsection": "Oran-Highschool-Host-Club",
+        "subsection": "Oran Highschool Host Club",
         "section": "Anime",
     },
     {
@@ -77,7 +77,7 @@ INITIAL_ITEM_INFO = [
         "img": "images/devil fruit.jpg",
         "price": "5,000,000,000",
         "is_in_cart": False,
-        "subsection": "One-Piece",
+        "subsection": "One Piece",
         "section": "Anime",
     },
     {
@@ -86,7 +86,7 @@ INITIAL_ITEM_INFO = [
         "img": "images/conjuration.gif",
         "price": "10,000,000",
         "is_in_cart": False,
-        "subsection": "Hunter-x-Hunter",
+        "subsection": "Hunter x Hunter",
         "section": "Anime",
     },
     {
@@ -95,7 +95,7 @@ INITIAL_ITEM_INFO = [
         "img": "images/greed island.jpg",
         "price": "8,000,000,000",
         "is_in_cart": False,
-        "subsection": "Hunter-x-Hunter",
+        "subsection": "Hunter x Hunter",
         "section": "Anime",
     },
     {
@@ -113,7 +113,7 @@ INITIAL_ITEM_INFO = [
         "img": "images/finger.jpg",
         "price": "200,000,000,000",
         "is_in_cart": False,
-        "subsection": "Jujutsu-Kaisen",
+        "subsection": "Jujutsu Kaisen",
         "section": "Anime",
     },
     {

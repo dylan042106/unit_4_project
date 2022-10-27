@@ -76,7 +76,6 @@
 
 .card:hover img {
   left: 73%;
-  height: 150px;
   visibility: hidden;
   opacity: 0;
 }
