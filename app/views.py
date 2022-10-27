@@ -37,7 +37,6 @@ def subSectionPageView(request, subsection):
             other.append(item.subsection)
             for all in other:
                 this = all
-
     context = {"subSectionName": this, "subs": subsections}
     return render(request, "subSectionTemplate.html", context)
 
