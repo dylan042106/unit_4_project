@@ -83,7 +83,7 @@ INITIAL_ITEM_INFO = [
     {
         "name": "Kurapika's Judgement Chain",
         "desc": "This item is one of the chains Kurapika uses in the anime Hunter X Hunter.",
-        "img": "images/conjuration.gif",
+        "img": "Judgement Chain",
         "price": "10,000,000",
         "is_in_cart": False,
         "subsection": "Hunter x Hunter",
