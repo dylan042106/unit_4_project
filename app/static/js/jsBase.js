@@ -1,6 +1,6 @@
-  window.addEventListener("load", () => {
-    document.body.classList.remove("preload");
-  });
+window.addEventListener("load", () => {
+  document.body.classList.remove("preload");
+});
 
   document.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector(".nav");

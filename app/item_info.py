@@ -134,6 +134,15 @@ INITIAL_ITEM_INFO = [
         "subsection": "DeathNote",
         "section": "Anime",
     },
+    {
+        "name": "Totem of Undying",
+        "desc": "Uncommon combat item that can save holder from death",
+        "img": "Totem",
+        "price": "2,000,000",
+        "is_in_cart": False,
+        "subsection": "Minecraft",
+        "section": "Video Games",
+    },
 ]
 
 FEATURED = [
